@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack --mode development --watch",
-    "build": ""
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "Eric Lagasca",
@@ -12,7 +12,8 @@
   "description": "A Django project with React embedded",
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
